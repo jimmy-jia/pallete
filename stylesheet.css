@@ -112,7 +112,8 @@ div.homecontent {
 	ul.menu {
 		text-align:center;
 		float:none;
-
+		margin-right:auto;
+		margin-left:auto;
 		padding:0;
 		clear:none;
 		white-space:nowrap;
@@ -172,12 +173,12 @@ div.homecontent {
 
 @media print, screen and (max-width: 480px) {
 	.links a{
-		font-size:150%;
+		font-size:200%;
 	}
 }
 
-@media print, screen and (max-width: 360px) {
+@media print, screen and (max-width: 359px) {
 .links a{
-	font-size:125%;
+	font-size:150%;
 }
 }
