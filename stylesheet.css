@@ -179,5 +179,7 @@ div.homecontent {
 }
 
 @media print, screen and (max-width: 360px) {
-
+.links a{
+	font-size:125%;
+}
 }
