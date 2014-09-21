@@ -111,10 +111,11 @@ div.homecontent {
 
 @media print, screen and (max-width: 1000px) {
 ul.menu {
-	text-align:left;
-	float:left;
+	text-align:center;
+	float:none;
 	list-style-type:none;
-	margin-right:0;
+	margin-right:auto;
+	margin-left:auto;
 	padding:0;
 	clear:none;
 }
@@ -161,11 +162,15 @@ ul.menu, ul.menu ul{
 }
 
 @media print, screen and (max-width: 720px) {
-
+.links a{
+	font-size:175%;
+}
 }
 
 @media print, screen and (max-width: 480px) {
-
+.links a{
+	font-size:150%;
+}
 }
 
 @media print, screen and (max-width: 360px) {
