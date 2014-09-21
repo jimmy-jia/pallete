@@ -173,12 +173,12 @@ div.homecontent {
 
 @media print, screen and (max-width: 480px) {
 	.links a{
-		font-size:200%;
+		font-size:100%;
 	}
 }
 
-@media print, screen and (max-width: 359px) {
+@media print, screen and (max-width: 320px) {
 .links a{
-	font-size:150%;
+	font-size:125%;
 }
 }
