@@ -112,9 +112,7 @@ div.homecontent {
 	ul.menu {
 		text-align:center;
 		float:none;
-		list-style-type:none;
-		margin-right:auto;
-		margin-left:auto;
+
 		padding:0;
 		clear:none;
 		white-space:nowrap;
