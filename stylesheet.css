@@ -110,54 +110,55 @@ div.homecontent {
 
 
 @media print, screen and (max-width: 1000px) {
-ul.menu {
-	text-align:center;
-	float:none;
-	list-style-type:none;
-	margin-right:auto;
-	margin-left:auto;
-	padding:0;
-	clear:none;
-}
-.links a {
-	margin-right:0;
-}
-li {
-	display:inline-block;
-	clear:none;
-}
-ul.menu ul{
-	display:inline;
-	clear:none;
-}
-ul.menu li:hover > ul{	
-	display:inline;
-	background-color:transparent;
-	border-radius:0px;
-	border:0px;
-	border-top:0px;
-	border-right:0px;
-	clear:none;
-}
-ul.menu, ul.menu ul{
-	list-style:none;
-	margin:0;
-	padding:0;
-	position:static;
-}
-.welcome {
-	width:80%;
-	position:static;
-	margin-right:auto;
-	margin-left:auto;
-	margin-bottom:10px;
-}
-.scroller {
-	width:80%;
-	position:static;
-	margin-left:auto;
-	margin-right:auto;
-}
+	ul.menu {
+		text-align:center;
+		float:none;
+		list-style-type:none;
+		margin-right:auto;
+		margin-left:auto;
+		padding:0;
+		clear:none;
+		white-space:nowrap;
+	}
+	.links a {
+		margin-right:0;
+	}
+	li {
+		display:inline-block;
+		clear:none;
+	}
+	ul.menu ul{
+		display:inline;
+		clear:none;
+	}
+	ul.menu li:hover > ul{	
+		display:inline;
+		background-color:transparent;
+		border-radius:0px;
+		border:0px;
+		border-top:0px;
+		border-right:0px;
+		clear:none;
+	}
+	ul.menu, ul.menu ul{
+		list-style:none;
+		margin:0;
+		padding:0;
+		position:static;
+	}
+	.welcome {
+		width:80%;
+		position:static;
+		margin-right:auto;
+		margin-left:auto;
+		margin-bottom:10px;
+	}
+	.scroller {
+		width:80%;
+		position:static;
+		margin-left:auto;
+		margin-right:auto;
+	}
 
 }
 
