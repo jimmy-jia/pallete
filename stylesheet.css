@@ -5,7 +5,7 @@ html {
 body {
 	background-image:url('bg1.jpg');
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size:200%;
 	margin:0;
 	padding:0;
 	width:100%;
@@ -75,6 +75,7 @@ h1 {
 	position:absolute;
 	color:white;
 	overflow:auto;
+	margin-top:10px;
 }
 .welcome:hover {
 	opacity:.9;
@@ -97,15 +98,27 @@ div.homecontent {
 	color:white;
 	text-align:center;
 	position:absolute;
+	margin-top:10px;
 }
 .scroller:hover{
 	opacity:.9;
 }
-
-
-
-
-
+.scroller-container{
+	margin-right:auto;
+	margin-left:auto;
+	width:70%;
+	height:auto;
+}
+#rize{
+	float:right;
+	border:5px solid white;
+	border-radius:10px;
+}
+#rizetext{
+	float:left;
+	width:45%;
+}
+#rizetextp{margin-right:5px;}
 
 
 @media print, screen and (max-width: 1000px) {
@@ -155,6 +168,7 @@ div.homecontent {
 	}
 	.welcome {
 		width:80%;
+		height:auto;
 		position:static;
 		margin-right:auto;
 		margin-left:auto;
@@ -162,9 +176,11 @@ div.homecontent {
 	}
 	.scroller {
 		width:80%;
+		height:auto;
 		position:static;
 		margin-left:auto;
 		margin-right:auto;
+		padding-bottom:10px;
 	}
 
 }
