@@ -120,8 +120,8 @@ div.homecontent {
 		white-space:nowrap;
 	}
 	.links a {
-		margin-right:-1px;
-		padding:1px;
+		margin-right:0px;
+		padding:0px;
 	}
 	#toplevel > a {
 		padding-right:6px;
