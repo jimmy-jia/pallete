@@ -121,10 +121,10 @@ div.homecontent {
 	}
 	.links a {
 		margin-right:0px;
-		padding:0px;
+		padding:1px;
 	}
 	#toplevel > a {
-		padding-right:6px;
+		padding-right:0px;
 	}
 	li {
 		display:inline-block;
@@ -179,7 +179,7 @@ div.homecontent {
 }
 
 @media print, screen and (max-width: 320px) {
-.links a{
-	font-size:125%;
-}
+	.links a{
+		font-size:125%;
+	}
 }
