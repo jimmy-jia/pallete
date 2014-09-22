@@ -125,13 +125,14 @@ div.homecontent {
 		padding:1px;
 	}
 	#toplevel > a {
-		padding-right:6px;
+		padding-right:3px;
 	}
 	li {
 		display:inline-block;
 		clear:none;
 	}
 	ul.menu ul{
+		float:none;
 		display:inline-block;
 		clear:none;
 		position:static;
