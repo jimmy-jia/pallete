@@ -109,6 +109,9 @@ div.homecontent {
 
 
 @media print, screen and (max-width: 1000px) {
+	.topbar {
+		height:auto;
+	}
 	ul.menu {
 		text-align:center;
 		float:none;
