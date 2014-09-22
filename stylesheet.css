@@ -124,18 +124,18 @@ div.homecontent {
 		padding:1px;
 	}
 	#toplevel > a {
-		padding-right:0px;
+		padding-right:6px;
 	}
 	li {
 		display:inline-block;
 		clear:none;
 	}
 	ul.menu ul{
-		display:inline;
+		display:inline-block;
 		clear:none;
 	}
 	ul.menu li:hover > ul{	
-		display:inline;
+		display:inline-block;
 		background-color:transparent;
 		border-radius:0px;
 		border:0px;
