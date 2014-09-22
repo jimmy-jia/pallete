@@ -111,13 +111,14 @@ div.homecontent {
 @media print, screen and (max-width: 1000px) {
 	.topbar {
 		height:auto;
+		clear:none;
 	}
 	ul.menu {
 		text-align:center;
 		float:none;
 		padding:0;
-		clear:none;
 		white-space:nowrap;
+		position:static;
 	}
 	.links a {
 		margin-right:0px;
@@ -133,6 +134,7 @@ div.homecontent {
 	ul.menu ul{
 		display:inline-block;
 		clear:none;
+		position:static;
 	}
 	ul.menu li:hover > ul{	
 		display:inline-block;
