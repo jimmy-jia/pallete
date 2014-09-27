@@ -123,8 +123,34 @@ div.homecontent {
 	width:45%;
 }
 #rizetextp{margin-right:5px;}
-
-
+.about{
+	width:70%;
+	height:min-content;
+	background-color:#4AA5FF;
+	text-align:center;
+	border:5px solid white;
+	border-radius:60px;
+	opacity:.7;
+	filter: alpha(opacity=60);
+	transition: opacity .4s;
+	color:white;
+	overflow:auto;
+	margin-top:30px;
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+}
+.about:hover{opacity:.9;}
+.split{
+	height:3px;
+	width:40%;
+	border-radius:80%;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:white;
+}
 @media print, screen and (max-width: 1000px) {
 	.topbar {
 		height:auto;
@@ -198,6 +224,10 @@ div.homecontent {
 @media print, screen and (max-width: 480px) {
 	.links a{
 		font-size:150%;
+	}
+	.about {
+		width:90%;
+		margin-top:10px;
 	}
 }
 
