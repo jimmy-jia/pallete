@@ -5,7 +5,8 @@ html {
 body {
 	background-image:url('bg1.jpg');
 	background-repeat: no-repeat;
-	background-size:200%;
+	background-size:cover;
+	background-attachment:fixed;
 	margin:0;
 	padding:0;
 	width:100%;
@@ -20,6 +21,7 @@ body {
 	border-bottom:5px solid white;
 	opacity:.8;
 	transition: opacity .4s;
+	z-index:10;
 }
 .topbar:hover {
 	opacity:1;
@@ -45,6 +47,7 @@ ul.menu, ul.menu ul{
 ul.menu ul{
 	display:none;
 	float:right;
+	transition:opacity .4s;
 }
 ul.menu li:hover > ul{
 	display:block;
@@ -53,6 +56,7 @@ ul.menu li:hover > ul{
 	border:5px solid white;
 	border-top:0px;
 	border-right:0px;
+	z-index:10;
 }
 ul.menu ul a:hover{
 	color:white;
